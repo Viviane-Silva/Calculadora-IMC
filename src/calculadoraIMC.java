@@ -2,7 +2,7 @@ import javax.swing.JOptionPane;
 import java.text.DecimalFormat;
 
 public class calculadoraIMC {
-    public static void main(String args[]) {
+    public static void main(String[] args) {
         double altura, peso, imc;
 
         altura = Double.parseDouble(JOptionPane.showInputDialog("Digite sua altura:"));
